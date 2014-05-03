@@ -179,6 +179,7 @@ hr {
     .game-container .game-message p {
       font-size: 60px;
       font-weight: bold;
+      color: #ff0000;
       height: 60px;
       line-height: 60px;
       margin-top: 222px; }
@@ -187,14 +188,16 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
-      border-radius: 3px;
+      background: #000000;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #ffffff;
       height: 40px;
       line-height: 42px;
-      margin-left: 9px; }
+      margin-left: 9px;
+      border-radius: 3px;
+      border-width: 1px;
+      border-color: #ffffff; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
@@ -320,26 +323,33 @@ hr {
   .tile.tile-2 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/2.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/4.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: rgba(0,0,0,0);
-    background: url('../tile-sets/8.jpg'); }
+    background: url('../tile-sets/8.jpg');
+    background-size: 100%; }
   .tile.tile-16 .tile-inner {
     color: rgba(0,0,0,0);
-    background: url('../tile-sets/16.jpg'); }
+    background: url('../tile-sets/16.jpg');
+    background-size: 100%; }
   .tile.tile-32 .tile-inner {
     color: rgba(0,0,0,0);
-    background: url('../tile-sets/32.jpg'); }
+    background: url('../tile-sets/32.jpg');
+    background-size: 100%; }
   .tile.tile-64 .tile-inner {
     color: rgba(0,0,0,0);
-    background: url('../tile-sets/64.jpg'); }
+    background: url('../tile-sets/64.jpg');
+    background-size: 100%; }
   .tile.tile-128 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/128.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(255, 120, 3, 0.1881), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -348,6 +358,7 @@ hr {
   .tile.tile-256 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/256.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(255, 120, 3, 0.26746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -356,6 +367,7 @@ hr {
   .tile.tile-512 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/512.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(255, 120, 3, 0.34683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -364,6 +376,7 @@ hr {
   .tile.tile-1024 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/1024.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(255, 120, 3, 0.42619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -372,6 +385,7 @@ hr {
   .tile.tile-2048 .tile-inner {
     color: rgba(0,0,0,0);
     background: url('../tile-sets/2048.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(255, 120, 3, 0.50556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -562,7 +576,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #000000;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -576,6 +590,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
+      color: #ff0000 ;
       background: rgba(238, 228, 218, 0.5);
       z-index: 100;
       text-align: center;
@@ -596,11 +611,13 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #8f7a66;
+        background: #000000;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
-        color: #f9f6f2;
+        color: #ffffff;
+        border-width: 1px;
+        border-color: #ffffff;
         height: 40px;
         line-height: 42px;
         margin-left: 9px; }
