@@ -17,9 +17,18 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
 <body>
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048 Hangman Edition</h1>
+      <h1 class="title">Hangman goes 2048/h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -84,7 +93,10 @@
     <p>
     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dickefingermann.github.io/2048-Hangman/" data-text="I just played Hangman goes 2048 - very addictive, try it out. Great custom version!" data-via="carlhinrichsen" data-size="large" data-hashtags="2048hangman">Tweet</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
-   
+    <div id="fb-root"></div>
+
+   &nbsp; 
+   <div class="fb-share-button" data-href="http://carlhinrichsen.github.io/2048-Hangman/" data-type="button_count"></div>
     </p>
   </div>
 
