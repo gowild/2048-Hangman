@@ -1,3 +1,14 @@
+# Hangman goes 2048
+
+This is 2048 hangman edition created by Carl Hinrichsen.
+ 
+This is a customized version of Gabriele Cirulli's 2048, which he released open source on Github.com - Gabriele's game can be played at: http://gabrielecirulli.github.io/2048/
+ 
+If you like my version feel free to share on twitter via #HangmanGoes2048. Appreciate any comments to @carlhinrichsen
+ 
+Following here is the readme as created by Gabriele:
+
+
 # 2048
 A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
 
