@@ -1,0 +1,163 @@
+
+/* - - - Twitter Theme- - - */
+
+#container{
+background: white;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,white),color-stop(100%,#DDD));
+background: -webkit-linear-gradient(top,white 0,#DDD 100%);
+background: -moz-linear-gradient(top,white 0,#DDD 100%);
+background: -ms-linear-gradient(top,white 0,#DDD 100%);
+background: -o-linear-gradient(top,white 0,#DDD 100%);
+background: linear-gradient(top,white 0,#DDD 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+border-left: solid 1px #EEE;
+border-right: solid 1px #EEE;
+border-bottom: solid 1px #CCC;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border: 0px;
+}
+#logo{
+-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+-moz-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+background-position: 0 0;
+background-color: #0093C6;
+background-image: url(https://github.com/carlhinrichsen/2048-Hangman/blob/gh-pages/Tiffin/header640x90.jpg);
+background-repeat: repeat-x;
+border-top-left-radius:4px;
+	border-top-right-radius:4px;
+}
+html {
+background: url(http://wufoohandbook.s3.amazonaws.com/themes/img/tahoe.jpg);
+background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+background-repeat:no-repeat;
+}
+input.submit{
+color: white;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, .25);
+background-color: #019AD2;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#33BCEF),to(#019AD2));
+background-image: -moz-linear-gradient(#33BCEF,#019AD2);
+background-image: -ms-linear-gradient(#33BCEF,#019AD2);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#33BCEF),color-stop(100%,#019AD2));
+background-image: -webkit-linear-gradient(#33BCEF,#019AD2);
+background-image: -o-linear-gradient(#33BCEF,#019AD2);
+background-image: linear-gradient(#33BCEF,#019AD2);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bcef',endColorstr='#019ad2',GradientType=0);
+border-color: #057ED0;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+width:auto;
+padding: 5px 10px;
+font-size: 13px;
+font-weight: bold;
+line-height: 18px;
+border: 1px solid #096EB3;
+cursor: pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.safari input.btTxt {
+font-size: 13px;
+}
+input.submit:hover{
+color: white;
+background-color: #0271BF;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#2DADDC),to(#0271BF));
+background-image: -moz-linear-gradient(#2DADDC,#0271BF);
+background-image: -ms-linear-gradient(#2DADDC,#0271BF);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2DADDC),color-stop(100%,#0271BF));
+background-image: -webkit-linear-gradient(#2DADDC,#0271BF);
+background-image: -o-linear-gradient(#2DADDC,#0271BF);
+background-image: linear-gradient(#2DADDC,#0271BF);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2daddc',endColorstr='#0271bf',GradientType=0);
+border-color: #096EB3;
+box-shadow: 0 1px 0 white;
+-webkit-box-shadow: 0 1px 0 white;
+}
+.wufoo li.focused {
+background: none;
+}
+input[type="checkbox"],select.select,input[type="radio"]  {
+outline:none;
+}
+.pgStyle1 .selected var, .pgStyle2 var, .pgStyle2 var em {
+background: #2DADDC;
+color: #fff;
+border:none;
+box-shadow:none;
+}
+.pgStyle1 var, .pgStyle2 td {
+border: 1px solid #CCC;
+box-shadow: none;
+}
+.pgStyle1 .done var {
+background: #2DADDC;
+box-shadow: none;
+border: 0;
+color: white;
+}
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label{
+background-color: #F1F1F1;
+}
+.likert tbody tr:hover td{border-left: 1px solid #CCC;}
+.wufoo .instruct small {
+font-style:italic;
+}
+button.link {
+color: #888;
+text-decoration: none;
+}
+button.link:hover {
+color: #888;
+}
+.wufoo input.btTxt {
+font-weight: bold;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+background:none;
+text-indent: 10px;
+}
+.wufoo select.select {
+padding: 5px;
+border: 1px solid #CCC;
+border-radius: 0;
+}
+.wufoo input.text, .wufoo textarea.textarea,select.select{
+-webkit-border-radius: 3px;
+padding-bottom:8px;
+padding-top:8px;
+border: 1px solid #CCC;
+-webkit-box-shadow: inset 0 1px 0 #EEE,white 0 1px 0;
+-moz-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;
+box-shadow: inset 0 1px 0 #EEE,white 0 1px 0;
+background-color: white;
+}
+select.select:focus{
+padding: 5px;
+-webkit-box-shadow: inset 0 1px 0 #EEE,white 0 1px 0;
+-moz-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;
+border: 1px solid #56B4EF;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+background-color: white;
+}
+input.text:focus, textarea.textarea:focus{
+outline: none;
+border:1px solid #56B4EF;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.likert table, .likert th, .likert td {
+border-color: #CECECE;
+}
+input.increase, select.increase{width:100%;}
+.msie[class] select.ieSelectFix.increase{min-width:100%;}
