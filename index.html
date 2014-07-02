@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Hangman goes 2048</title>
-
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
@@ -11,24 +10,49 @@
   <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
+  <meta name="description" content="Use your arrow keys to move the tiles. When two tiles with the same image touch, they merge into one. Gradually the gallows are completed. Will hangman face his maker? You may be in for a surprise at the end.">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <link rel="image_src" href="http://carlhinrichsen.github.io/2048-Hangman/preview.jpg">
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048 Hangman Edition</h1>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Hangman Test 1 -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:728px;height:90px"
+         data-ad-client="ca-pub-0136025575279222"
+         data-ad-slot="8323389423"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+      <h1 class="title">Hangman goes 2048</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
       </div>
     </div>
-
     <div class="above-game">
       <p></p> 
-      <p class="game-intro">Join the tiles to build the <strong>gallows</strong> and <strong>complete the story</strong></p>
+      <!-- Hangman Test 1 
+      <p class="game-intro">Join the tiles to build the <strong>gallows.</strong> How will the story end?</p>
+      -->
+      <p class="game-intro">Happy birthday to the Grand Duke! As a thank you for the vacation day, we created a <strong>Dukes of Luxembourg</strong> 2048 edition, live here for a limited time! </p>
       <a class="restart-button">New Game</a>
     </div>
 
@@ -74,21 +98,52 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same image touch, they <strong>merge into one and gradually complete the story of hangman and the gallows!</strong>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same image touch, they <strong>merge into one.</strong> Gradually the gallows are completed. Will hangman face his maker? You may be in for a surprise at the end.
+    </p>
+    <p class="game-explanation">
+      <strong class="important">Mobile version:</strong> Works great on your smartphone browser as well. Simply swipe up, down, left and right to move the tiles.
+    </p>    
+  
+    <p>
+    <small>Appreciate your feedback! // What's your highscore? // Found out how it ends?</small>
+    </p>
+    <div class="fb-comments" data-href="http://carlhinrichsen.github.io/2048-Hangman/" data-width="500" data-numposts="3" data-colorscheme="dark"></div>
+
+  <p class="game-explanation">
+   <strong class="important">Share:</strong>
+    <div class="fb-like" data-href="http://bit.ly/2048hm" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+    </p>
+
+    <p>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/2048hm" data-text="I just played Hangman goes 2048 - very addictive, try it out. Great custom version!" data-via="carlhinrichsen" data-hashtags="2048hangman">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+     </p>
+
+    <p>
+    <a class="email-link" href="mailto:?subject=Hangman%20goes%202048%20-%20Just%20tried%20this%20and%20wanted%20to%20share&body=Hey%20there%2C%20%0A%0AI%20just%20played%20%22Hangman%20goes%202048%22%20-%20super%20simple%20but%20surprisingly%20addictive%20game.%20%0A%0AGive%20it%20a%20try%20here%3A%20%0Ahttp%3A//bit.ly/2048hm%0A%0ACan%20you%20beat%20my%20high-score%3F%0A%0AGood%20luck%21">Send link via e-mail</a> 
+    </p>
+    <p>
+    <br>
+    <br>   
+    <small>Try playing this game on your smartphone browser - simply send this link to yourself</small>
     </p>
     <hr>
-    <p>
-    <strong class="important">Note:</strong> "Hangman goes 2048" is a derivative version of the amazing 2048 game created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli</a>. You can play the original game <a href="http://gabrielecirulli.github.io/2048/" target="_blank">here</a>. "Hangman goes 2048" was created by <a href="http://www.carlhinrichsen.de" target="_blank">Carl Hinrichsen </a>
+    
+    <strong>Note:</strong> "Hangman goes 2048" is a derivative version of the amazing 2048 game created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli</a>. You can play the original game <a href="http://gabrielecirulli.github.io/2048/" target="_blank">here</a>. "Hangman goes 2048" was created by <a href="http://bit.ly/chinrich" target="_blank">Carl Hinrichsen </a>
     </p>
-    &nbsp; 
-    <p>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dickefingermann.github.io/2048-Hangman/" data-text="I just played Hangman goes 2048 - very addictive, try it out. Great custom version!" data-via="carlhinrichsen" data-size="large" data-hashtags="2048hangman">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
-   
-    </p>
-  </div>
 
+  </div> 
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50654530-1', 'carlhinrichsen.github.io');
+    ga('send', 'pageview');
+
+  </script>
  
 
 
