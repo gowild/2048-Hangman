@@ -1,6 +1,6 @@
 # Hangman goes 2048
 
-This is 2048 hangman edition created by Carl Hinrichsen.
+This is 2048 Dukes of Luxembourg edition created by GoWild SummerSchool
 
 [Play it here!](http://carlhinrichsen.github.io/2048-Hangman/)
  
