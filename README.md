@@ -1,11 +1,8 @@
 # Hangman goes 2048
 
 This is 2048 hangman edition created by Carl Hinrichsen.
-<<<<<<< HEAD
-=======
 
 [Play it here!](http://carlhinrichsen.github.io/2048-Hangman/)
->>>>>>> gh-pages
  
 This is a customized version of Gabriele Cirulli's 2048, which he released open source on Github.com - Gabriele's game can be played at: http://gabrielecirulli.github.io/2048/
  
